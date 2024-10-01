@@ -14,7 +14,7 @@ class PostTagTableSeeder extends Seeder
      */
     public function run(): void
     {
-        for ($i=0; $i < 300; $i++) { 
+        for ($i=0; $i < 100; $i++) { 
             // estraggo un post random
             $post = Post::inRandomOrder()->first();
 
